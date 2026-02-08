@@ -14,6 +14,7 @@ Usage:
 import json
 import os
 import re
+import sys
 import base64
 import shutil
 import argparse
@@ -522,8 +523,8 @@ const config: Config = {{
         indexDocs: true,
         indexBlog: false,
         indexPages: false,
-        docsRouteBasePath: ["whitepaper", "sdk"],
-        docsDir: ["docs", "sdk"],
+        docsRouteBasePath: ["whitepaper"],
+        docsDir: ["docs"],
         searchResultLimits: 10,
         searchResultContextMaxLength: 50,
       }},
@@ -776,6 +777,12 @@ export default config;
 
 
 def main():
+    # Use UTF-8 stdout on Windows so emoji in print() work (cp1252 can't encode them)
+    if sys.platform == 'win32':
+        import io
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
     parser = argparse.ArgumentParser(description='Build P2P Foundation documentation')
     parser.add_argument('--clean', action='store_true', help='Clean and rebuild')
     parser.add_argument('--config', default='docs.config.json', help='Config file path')

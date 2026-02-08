@@ -1,0 +1,29 @@
+{
+  "id": "18-18-references",
+  "title": "18. References",
+  "description": "1. Reclaim Protocol — https://www.reclaimprotocol.org/",
+  "source": "@site/docs/18-18-references.md",
+  "sourceDirName": ".",
+  "slug": "/references",
+  "permalink": "/whitepaper/references",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "id": "18-18-references",
+    "sidebar_position": 18,
+    "title": "18. References",
+    "slug": "references"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "17. Disclosures & Risks",
+    "permalink": "/whitepaper/disclosures-risks"
+  },
+  "next": {
+    "title": "Appendices",
+    "permalink": "/whitepaper/appendices"
+  }
+}

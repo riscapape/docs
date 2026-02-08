@@ -1,0 +1,29 @@
+{
+  "id": "02-2-authentication",
+  "title": "2. Authentication",
+  "description": "2.1 API Keys",
+  "source": "@site/sdk/02-2-authentication.md",
+  "sourceDirName": ".",
+  "slug": "/authentication",
+  "permalink": "/sdk/authentication",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "02-2-authentication",
+    "sidebar_position": 1,
+    "title": "2. Authentication",
+    "slug": "authentication"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "1. Getting Started",
+    "permalink": "/sdk/getting-started"
+  },
+  "next": {
+    "title": "3. Trading API",
+    "permalink": "/sdk/trading-api"
+  }
+}

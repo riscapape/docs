@@ -1,6 +1,6 @@
 ---
 id: 05-5-trade-protocol-on-and-off-ramp
-sidebar_position: 7
+sidebar_position: 5
 title: "5. Trade Protocol (On- and Off-Ramp)"
 slug: trade-protocol-on-and-off-ramp
 ---

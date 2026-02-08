@@ -1,0 +1,136 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/whitepaper",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/whitepaper",
+          "mainDocId": "00-abstract",
+          "docs": [
+            {
+              "id": "00-abstract",
+              "path": "/whitepaper/abstract",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "01-1-the-vision",
+              "path": "/whitepaper/the-vision",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "02-2-design-goals-and-non-goals",
+              "path": "/whitepaper/design-goals-and-non-goals",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "02-how-the-protocol-works-today-high-level-not-vendor-locked",
+              "path": "/whitepaper/how-the-protocol-works-today-high-level-not-vendor-locked"
+            },
+            {
+              "id": "03-3-system-overview",
+              "path": "/whitepaper/system-overview",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "03-why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer",
+              "path": "/whitepaper/why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer"
+            },
+            {
+              "id": "04-4-cryptographic-primitives-proof-integration",
+              "path": "/whitepaper/cryptographic-primitives-proof-integration",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "05-5-trade-protocol-on-and-off-ramp",
+              "path": "/whitepaper/trade-protocol-on-and-off-ramp",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "06-6-proof-of-credibility-reputation-matching",
+              "path": "/whitepaper/proof-of-credibility-reputation-matching",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "07-7-fraud-prevention",
+              "path": "/whitepaper/fraud-prevention",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "08-8-dispute-resolution",
+              "path": "/whitepaper/dispute-resolution",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "09-9-pricing-oracle-mechanics",
+              "path": "/whitepaper/pricing-oracle-mechanics",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "10-10-liquidity-market-design",
+              "path": "/whitepaper/liquidity-market-design",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "11-11-security-model",
+              "path": "/whitepaper/security-model",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "12-12-privacy-model",
+              "path": "/whitepaper/privacy-model",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "13-13-compliance-policy-positioning",
+              "path": "/whitepaper/compliance-policy-positioning",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "14-14-accessing-p2p-protocol-clients-sdks",
+              "path": "/whitepaper/accessing-p2p-protocol-clients-sdks",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "15-15-governance-upgradability",
+              "path": "/whitepaper/governance-upgradability",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "16-16-token-economics",
+              "path": "/whitepaper/token-economics",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "17-17-disclosures-risks",
+              "path": "/whitepaper/disclosures-risks",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "18-18-references",
+              "path": "/whitepaper/references",
+              "sidebar": "whitepaperSidebar"
+            },
+            {
+              "id": "19-appendices",
+              "path": "/whitepaper/appendices",
+              "sidebar": "whitepaperSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "whitepaperSidebar": {
+              "link": {
+                "path": "/whitepaper/abstract",
+                "label": "Whitepaper"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

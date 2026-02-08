@@ -1,0 +1,29 @@
+{
+  "id": "01-1-the-vision",
+  "title": "1. The Vision",
+  "description": "1.1 From \"ramps\" to a privacy and credibility based economy",
+  "source": "@site/docs/01-1-the-vision.md",
+  "sourceDirName": ".",
+  "slug": "/the-vision",
+  "permalink": "/whitepaper/the-vision",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "01-1-the-vision",
+    "sidebar_position": 1,
+    "title": "1. The Vision",
+    "slug": "the-vision"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "Abstract",
+    "permalink": "/whitepaper/abstract"
+  },
+  "next": {
+    "title": "2. Design Goals and Non-Goals",
+    "permalink": "/whitepaper/design-goals-and-non-goals"
+  }
+}

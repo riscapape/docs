@@ -1,0 +1,25 @@
+{
+  "id": "07-7-support",
+  "title": "7. Support",
+  "description": "For additional support:",
+  "source": "@site/sdk/07-7-support.md",
+  "sourceDirName": ".",
+  "slug": "/support",
+  "permalink": "/sdk/support",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "07-7-support",
+    "sidebar_position": 6,
+    "title": "7. Support",
+    "slug": "support"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "6. Best Practices",
+    "permalink": "/sdk/best-practices"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: 06-6-proof-of-credibility-reputation-matching
-sidebar_position: 8
+sidebar_position: 6
 title: "6. Proof-of-Credibility (Reputation & Matching)"
 slug: proof-of-credibility-reputation-matching
 ---

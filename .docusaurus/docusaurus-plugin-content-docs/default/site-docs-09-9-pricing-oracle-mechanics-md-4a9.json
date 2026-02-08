@@ -1,0 +1,29 @@
+{
+  "id": "09-9-pricing-oracle-mechanics",
+  "title": "9. Pricing & Oracle Mechanics",
+  "description": "The Protocol determines indicative pricing using built-in oracle adapters that aggregate rates from selected exchanges and P2P venues into a median/TWAP with fallbacks. These oracles analyze price data from a variety of both centralized and P2P exchanges to determine the trading price for the stablecoin-fiat pair in question.",
+  "source": "@site/docs/09-9-pricing-oracle-mechanics.md",
+  "sourceDirName": ".",
+  "slug": "/pricing-oracle-mechanics",
+  "permalink": "/whitepaper/pricing-oracle-mechanics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "id": "09-9-pricing-oracle-mechanics",
+    "sidebar_position": 9,
+    "title": "9. Pricing & Oracle Mechanics",
+    "slug": "pricing-oracle-mechanics"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "8. Dispute Resolution",
+    "permalink": "/whitepaper/dispute-resolution"
+  },
+  "next": {
+    "title": "10. Liquidity & Market Design",
+    "permalink": "/whitepaper/liquidity-market-design"
+  }
+}

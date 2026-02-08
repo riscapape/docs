@@ -1,0 +1,20 @@
+{
+  "id": "02-how-the-protocol-works-today-high-level-not-vendor-locked",
+  "title": "How the protocol works today (high level, not vendor-locked)",
+  "description": "1. Placing orders. A user clicks \"Buy USDC\" (or \"Sell USDC\") and enters an amount. Users can import an existing wallet address to start transacting.",
+  "source": "@site/docs/02-how-the-protocol-works-today-high-level-not-vendor-locked.md",
+  "sourceDirName": ".",
+  "slug": "/how-the-protocol-works-today-high-level-not-vendor-locked",
+  "permalink": "/whitepaper/how-the-protocol-works-today-high-level-not-vendor-locked",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "02-how-the-protocol-works-today-high-level-not-vendor-locked",
+    "sidebar_position": 2,
+    "title": "How the protocol works today (high level, not vendor-locked)",
+    "slug": "how-the-protocol-works-today-high-level-not-vendor-locked"
+  }
+}

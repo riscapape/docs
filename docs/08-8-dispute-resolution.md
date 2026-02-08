@@ -1,6 +1,6 @@
 ---
 id: 08-8-dispute-resolution
-sidebar_position: 10
+sidebar_position: 8
 title: "8. Dispute Resolution"
 slug: dispute-resolution
 ---

@@ -1,0 +1,29 @@
+{
+  "id": "12-12-privacy-model",
+  "title": "12. Privacy Model",
+  "description": "DECENTRALIZATION TODO",
+  "source": "@site/docs/12-12-privacy-model.md",
+  "sourceDirName": ".",
+  "slug": "/privacy-model",
+  "permalink": "/whitepaper/privacy-model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "id": "12-12-privacy-model",
+    "sidebar_position": 12,
+    "title": "12. Privacy Model",
+    "slug": "privacy-model"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "11. Security Model",
+    "permalink": "/whitepaper/security-model"
+  },
+  "next": {
+    "title": "13. Compliance & Policy Positioning",
+    "permalink": "/whitepaper/compliance-policy-positioning"
+  }
+}

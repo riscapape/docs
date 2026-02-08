@@ -1,0 +1,29 @@
+{
+  "id": "10-10-liquidity-market-design",
+  "title": "10. Liquidity & Market Design",
+  "description": "10.1 Current Liquidity Model",
+  "source": "@site/docs/10-10-liquidity-market-design.md",
+  "sourceDirName": ".",
+  "slug": "/liquidity-market-design",
+  "permalink": "/whitepaper/liquidity-market-design",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "id": "10-10-liquidity-market-design",
+    "sidebar_position": 10,
+    "title": "10. Liquidity & Market Design",
+    "slug": "liquidity-market-design"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "9. Pricing & Oracle Mechanics",
+    "permalink": "/whitepaper/pricing-oracle-mechanics"
+  },
+  "next": {
+    "title": "11. Security Model",
+    "permalink": "/whitepaper/security-model"
+  }
+}

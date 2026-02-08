@@ -1,146 +1,145 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
-import type * as Preset from "@docusaurus/preset-classic";
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: "P2P Foundation Docs",
-  tagline: "Documentation for P2P Foundation",
-  favicon: "img/favicon.svg",
+  title: 'P2P Foundation Docs',
+  tagline: 'Documentation for P2P Foundation',
+  favicon: 'img/favicon.svg',
 
-  url: "https://docs.p2p.me",
-  baseUrl: "/",
+  url: 'https://docs.p2p.me',
+  baseUrl: '/',
 
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
+  customFields: {
+    knowledgeApiUrl:
+      process.env.KNOWLEDGE_API_URL || 'http://localhost:3001',
+  },
+
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   headTags: [
     // Favicons - dark icon for light mode, light icon for dark mode
     {
-      tagName: "link",
+      tagName: 'link',
       attributes: {
-        rel: "icon",
-        type: "image/svg+xml",
-        href: "/img/favicondark.svg",
-        media: "(prefers-color-scheme: light)",
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/img/favicondark.svg',
+        media: '(prefers-color-scheme: light)',
       },
     },
     {
-      tagName: "link",
+      tagName: 'link',
       attributes: {
-        rel: "icon",
-        type: "image/svg+xml",
-        href: "/img/favicon.svg",
-        media: "(prefers-color-scheme: dark)",
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/img/favicon.svg',
+        media: '(prefers-color-scheme: dark)',
       },
     },
     // SEO Meta Tags
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        property: "og:title",
-        content: "P2P Foundation Docs",
+        property: 'og:title',
+        content: 'P2P Foundation Docs',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        property: "og:description",
-        content: "Documentation for P2P Foundation",
+        property: 'og:description',
+        content: 'Documentation for P2P Foundation',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        property: "og:image",
-        content:
-          "https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4",
+        property: 'og:image',
+        content: 'https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        property: "og:type",
-        content: "website",
+        property: 'og:type',
+        content: 'website',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        property: "og:url",
-        content: "https://docs.p2p.me",
+        property: 'og:url',
+        content: 'https://docs.p2p.me',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        name: "twitter:card",
-        content: "summary_large_image",
+        name: 'twitter:card',
+        content: 'summary_large_image',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        name: "twitter:title",
-        content: "P2P Foundation Docs",
+        name: 'twitter:title',
+        content: 'P2P Foundation Docs',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        name: "twitter:description",
-        content: "Documentation for P2P Foundation",
+        name: 'twitter:description',
+        content: 'Documentation for P2P Foundation',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        name: "twitter:image",
-        content:
-          "https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4",
+        name: 'twitter:image',
+        content: 'https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4',
       },
     },
     {
-      tagName: "meta",
+      tagName: 'meta',
       attributes: {
-        name: "description",
-        content: "Documentation for P2P Foundation",
+        name: 'description',
+        content: 'Documentation for P2P Foundation',
       },
     },
   ],
 
   stylesheets: [
-    "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap",
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap',
   ],
 
-  clientModules: ["./src/clientModules/tocAutoScroll.js"],
+  clientModules: [
+    './src/clientModules/tocAutoScroll.js',
+  ],
 
   presets: [
     [
-      "classic",
+      'classic',
       {
         docs: {
-          sidebarPath: "./sidebars/whitepaper.ts",
-          routeBasePath: "whitepaper",
+          sidebarPath: './sidebars/whitepaper.ts',
+          routeBasePath: 'whitepaper',
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
   ],
 
-  plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "sdk",
-        path: "sdk",
-        routeBasePath: "sdk",
-        sidebarPath: "./sidebars/sdk.ts",
-      },
-    ],
-  ],
+  plugins: [],
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -150,8 +149,8 @@ const config: Config = {
         indexDocs: true,
         indexBlog: false,
         indexPages: false,
-        docsRouteBasePath: ["whitepaper", "sdk"],
-        docsDir: ["docs", "sdk"],
+        docsRouteBasePath: ["whitepaper"],
+        docsDir: ["docs"],
         searchResultLimits: 10,
         searchResultContextMaxLength: 50,
       },
@@ -165,38 +164,35 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4",
+    image: 'https://firebasestorage.googleapis.com/v0/b/p2px-421205.appspot.com/o/user-app%2Fv2%2Fimages%2Fthumbnails%2FfoundationWebsitePreview.png?alt=media&token=b9776f2a-a5c1-43ef-a8cb-764524e16fe4',
     colorMode: {
-      defaultMode: "light",
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "",
+      title: '',
       logo: {
-        alt: "P2P Foundation",
-        src: "img/p2p-foundation-main.svg",
-        srcDark: "img/p2p-foundation-2.svg",
+        alt: 'P2P Foundation',
+        src: 'img/p2p-foundation-main.svg',
+        srcDark: 'img/p2p-foundation-2.svg',
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "whitepaperSidebar",
-          position: "left",
-          label: "Whitepaper",
+                "type": "docSidebar",
+                "sidebarId": "whitepaperSidebar",
+                "position": "left",
+                "label": "Whitepaper"
         },
         {
-          type: "docSidebar",
-          sidebarId: "sdkSidebar",
-          position: "left",
-          label: "SDK",
-          docsPluginId: "sdk",
-        },
-      ],
+          to: '/ai-chat',
+          position: 'right',
+          label: 'AI Chat',
+        }
+],
     },
     footer: {
-      style: "dark",
+      style: 'dark',
       links: [],
       copyright: `
         <div class="footer-row-container">

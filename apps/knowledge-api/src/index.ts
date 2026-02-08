@@ -1,14 +1,26 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import { config } from "./config";
 import { queryHandler } from "./api/query";
 
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3001;
+const { port, nodeEnv, ollamaHost, corsOrigins } = config;
 
-app.use(cors());
+app.use(
+  cors({
+    origin:
+      corsOrigins === "*"
+        ? true
+        : (origin, cb) => {
+            if (!origin) return cb(null, true);
+            if (corsOrigins.includes(origin)) return cb(null, true);
+            return cb(null, false);
+          },
+  }),
+);
 app.use(express.json());
 
 // Routes
@@ -20,8 +32,7 @@ app.get("/health", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Knowledge API running on port ${port}`);
-  console.log(`Environment: ${process.env.NODE_ENV || "development"}`);
-  console.log(
-    `Ollama Host: ${process.env.OLLAMA_HOST || "http://localhost:11434"}`,
-  );
+  console.log(`Environment: ${nodeEnv}`);
+  console.log(`Ollama Host: ${ollamaHost}`);
+  console.log(`CORS origins: ${corsOrigins === "*" ? "*" : corsOrigins.join(", ")}`);
 });

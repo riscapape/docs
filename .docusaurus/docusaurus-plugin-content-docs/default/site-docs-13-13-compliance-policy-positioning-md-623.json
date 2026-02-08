@@ -1,0 +1,29 @@
+{
+  "id": "13-13-compliance-policy-positioning",
+  "title": "13. Compliance & Policy Positioning",
+  "description": "LEGAL TODO",
+  "source": "@site/docs/13-13-compliance-policy-positioning.md",
+  "sourceDirName": ".",
+  "slug": "/compliance-policy-positioning",
+  "permalink": "/whitepaper/compliance-policy-positioning",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "id": "13-13-compliance-policy-positioning",
+    "sidebar_position": 13,
+    "title": "13. Compliance & Policy Positioning",
+    "slug": "compliance-policy-positioning"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "12. Privacy Model",
+    "permalink": "/whitepaper/privacy-model"
+  },
+  "next": {
+    "title": "14. Accessing P2P Protocol: Clients & SDKs",
+    "permalink": "/whitepaper/accessing-p2p-protocol-clients-sdks"
+  }
+}

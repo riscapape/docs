@@ -13,7 +13,7 @@
  *   adding build tooling or new dependencies.
  */
 
-export type KnowledgeDomain = "docs:whitepaper" | "docs:sdk";
+export type KnowledgeDomain = "docs:whitepaper";
 
 /**
  * A single canonical documentation chunk.

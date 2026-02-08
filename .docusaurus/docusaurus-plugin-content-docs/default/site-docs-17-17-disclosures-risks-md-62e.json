@@ -1,0 +1,29 @@
+{
+  "id": "17-17-disclosures-risks",
+  "title": "17. Disclosures & Risks",
+  "description": "While the protocol is designed with safety and resilience in mind, users should understand the inherent risks of participating in decentralized finance.",
+  "source": "@site/docs/17-17-disclosures-risks.md",
+  "sourceDirName": ".",
+  "slug": "/disclosures-risks",
+  "permalink": "/whitepaper/disclosures-risks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "id": "17-17-disclosures-risks",
+    "sidebar_position": 17,
+    "title": "17. Disclosures & Risks",
+    "slug": "disclosures-risks"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "16. Token Economics",
+    "permalink": "/whitepaper/token-economics"
+  },
+  "next": {
+    "title": "18. References",
+    "permalink": "/whitepaper/references"
+  }
+}

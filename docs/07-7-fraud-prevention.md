@@ -1,6 +1,6 @@
 ---
 id: 07-7-fraud-prevention
-sidebar_position: 9
+sidebar_position: 7
 title: "7. Fraud Prevention"
 slug: fraud-prevention
 ---

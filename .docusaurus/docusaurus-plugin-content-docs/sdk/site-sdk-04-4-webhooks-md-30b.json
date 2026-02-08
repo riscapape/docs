@@ -1,0 +1,29 @@
+{
+  "id": "04-4-webhooks",
+  "title": "4. Webhooks",
+  "description": "4.1 Setting Up Webhooks",
+  "source": "@site/sdk/04-4-webhooks.md",
+  "sourceDirName": ".",
+  "slug": "/webhooks",
+  "permalink": "/sdk/webhooks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "04-4-webhooks",
+    "sidebar_position": 3,
+    "title": "4. Webhooks",
+    "slug": "webhooks"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "3. Trading API",
+    "permalink": "/sdk/trading-api"
+  },
+  "next": {
+    "title": "5. Error Handling",
+    "permalink": "/sdk/error-handling"
+  }
+}

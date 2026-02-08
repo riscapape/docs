@@ -33,8 +33,17 @@ import type { KnowledgeChunk, KnowledgeDomain } from "../contracts";
  * ─────────────────────────────────────────────────────────────────
  */
 
-/** Relative path from repo root to the canonical docs directory */
-const DOCS_RELATIVE_PATH = "website/docs";
+/**
+ * Relative path from repo root to the canonical docs directory.
+ * Tries website/docs first (monorepo layout), then docs (root-level layout).
+ */
+export function getDocsDir(repoRoot: string): string {
+  const websiteDocs = path.join(repoRoot, "website", "docs");
+  const rootDocs = path.join(repoRoot, "docs");
+  if (fs.existsSync(websiteDocs)) return websiteDocs;
+  if (fs.existsSync(rootDocs)) return rootDocs;
+  return websiteDocs; // fallback for error message
+}
 
 /** The Docusaurus route prefix for the whitepaper docs */
 const WHITEPAPER_ROUTE_BASE = "/whitepaper";
@@ -52,12 +61,12 @@ const WHITEPAPER_ROUTE_BASE = "/whitepaper";
 export async function ingestCanonicalDocs(
   repoRoot: string,
 ): Promise<KnowledgeChunk[]> {
-  const docsDir = path.join(repoRoot, DOCS_RELATIVE_PATH);
+  const docsDir = getDocsDir(repoRoot);
 
   if (!fs.existsSync(docsDir)) {
     throw new Error(
       `Ingestion boundary directory not found: ${docsDir}\n` +
-        `Run "python3 build_docs.py" in website/ first to generate canonical docs.`,
+        `Run "python build_docs.py" (or python3) first to generate canonical docs.`,
     );
   }
 

@@ -183,7 +183,33 @@ const client = new P2PClient({ apiKey: 'xxx' });
 ```
 ````
 
+## Environment configuration
+
+Important constants are driven by environment variables for easy deployment. Copy `.env.example` to `.env` and adjust:
+
+| Variable | Used by | Description |
+|----------|---------|-------------|
+| `KNOWLEDGE_API_URL` | Frontend (build time) | Backend API URL. Set to your API server when frontend and backend are on different hosts. |
+| `PORT` | Backend | Port the Knowledge API listens on (default `3001`). |
+| `OLLAMA_HOST` | Backend | Ollama base URL (default `http://localhost:11434`). |
+| `LLM_MODEL` | Backend | LLM model name (default `llama3.1`). |
+| `CORS_ORIGINS` | Backend | Comma-separated allowed origins for CORS when frontend is on another server. |
+
+See `.env.example` for all options and examples.
+
 ## Deployment Options
+
+### Hosting the backend on a different server
+
+1. **Backend server:** Deploy the Knowledge API (e.g. `apps/knowledge-api`) on its own host. Set:
+   - `PORT`, `OLLAMA_HOST`, `LLM_MODEL`
+   - `CORS_ORIGINS` to your docs site URL(s), e.g. `https://docs.p2p.me` (no trailing slash).
+2. **Build the frontend** with the backend URL baked in:
+   ```bash
+   KNOWLEDGE_API_URL=https://api.docs.p2p.me npm run build
+   ```
+   Or set `KNOWLEDGE_API_URL` in `.env` before running `npm run build`.
+3. Deploy the built site (e.g. `build/`) to your docs host. The AI Chat page will call the backend URL you set at build time.
 
 ### GitHub Pages (included)
 Push to `main` branch - automatic deployment via GitHub Actions.
@@ -193,12 +219,14 @@ Push to `main` branch - automatic deployment via GitHub Actions.
 npm run build
 # Deploy the `build/` folder
 ```
+Set **Environment variable** `KNOWLEDGE_API_URL` in the Vercel dashboard if the API is elsewhere.
 
 ### Netlify
 Connect your GitHub repo, set build command to:
 ```
 python3 build_docs.py && npm run build
 ```
+Add `KNOWLEDGE_API_URL` in Netlify environment variables if the backend is on a different server.
 
 ## License
 

@@ -1,0 +1,29 @@
+{
+  "id": "02-2-design-goals-and-non-goals",
+  "title": "2. Design Goals and Non-Goals",
+  "description": "2.1 Goals",
+  "source": "@site/docs/02-2-design-goals-and-non-goals.md",
+  "sourceDirName": ".",
+  "slug": "/design-goals-and-non-goals",
+  "permalink": "/whitepaper/design-goals-and-non-goals",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "02-2-design-goals-and-non-goals",
+    "sidebar_position": 2,
+    "title": "2. Design Goals and Non-Goals",
+    "slug": "design-goals-and-non-goals"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "1. The Vision",
+    "permalink": "/whitepaper/the-vision"
+  },
+  "next": {
+    "title": "3. System Overview",
+    "permalink": "/whitepaper/system-overview"
+  }
+}

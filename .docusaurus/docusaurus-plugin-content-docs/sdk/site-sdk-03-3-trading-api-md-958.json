@@ -1,0 +1,29 @@
+{
+  "id": "03-3-trading-api",
+  "title": "3. Trading API",
+  "description": "3.1 Creating an Order",
+  "source": "@site/sdk/03-3-trading-api.md",
+  "sourceDirName": ".",
+  "slug": "/trading-api",
+  "permalink": "/sdk/trading-api",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "03-3-trading-api",
+    "sidebar_position": 2,
+    "title": "3. Trading API",
+    "slug": "trading-api"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "2. Authentication",
+    "permalink": "/sdk/authentication"
+  },
+  "next": {
+    "title": "4. Webhooks",
+    "permalink": "/sdk/webhooks"
+  }
+}

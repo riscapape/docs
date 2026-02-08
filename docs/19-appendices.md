@@ -1,11 +1,11 @@
 ---
-id: 21-appendices
-sidebar_position: 21
+id: 19-appendices
+sidebar_position: 19
 title: "Appendices"
 slug: appendices
 ---
 
-*(To be expanded later)*
+_(To be expanded later)_
 
 1. **State Machines & Sequence Diagrams** for on-/off-ramp and dispute flows.
 2. **Proof Interface Specs:** inputs/outputs for identity and payment predicates; verifier APIs.

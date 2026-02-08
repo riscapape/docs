@@ -1,0 +1,29 @@
+{
+  "id": "15-15-governance-upgradability",
+  "title": "15. Governance & Upgradability",
+  "description": "- Parameters: fees, limits, rail risk weights, oracle sets, proof policies, bond schedules.",
+  "source": "@site/docs/15-15-governance-upgradability.md",
+  "sourceDirName": ".",
+  "slug": "/governance-upgradability",
+  "permalink": "/whitepaper/governance-upgradability",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "id": "15-15-governance-upgradability",
+    "sidebar_position": 15,
+    "title": "15. Governance & Upgradability",
+    "slug": "governance-upgradability"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "14. Accessing P2P Protocol: Clients & SDKs",
+    "permalink": "/whitepaper/accessing-p2p-protocol-clients-sdks"
+  },
+  "next": {
+    "title": "16. Token Economics",
+    "permalink": "/whitepaper/token-economics"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "06-6-best-practices",
+  "title": "6. Best Practices",
+  "description": "6.1 Security",
+  "source": "@site/sdk/06-6-best-practices.md",
+  "sourceDirName": ".",
+  "slug": "/best-practices",
+  "permalink": "/sdk/best-practices",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "06-6-best-practices",
+    "sidebar_position": 5,
+    "title": "6. Best Practices",
+    "slug": "best-practices"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "5. Error Handling",
+    "permalink": "/sdk/error-handling"
+  },
+  "next": {
+    "title": "7. Support",
+    "permalink": "/sdk/support"
+  }
+}

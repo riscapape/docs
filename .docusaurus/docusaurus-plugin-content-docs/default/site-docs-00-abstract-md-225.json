@@ -1,0 +1,25 @@
+{
+  "id": "00-abstract",
+  "title": "Abstract",
+  "description": "Following the wake of centralized exchanges, early decentralized exchanges led the DeFi movement using order books and liquidity pools. Yet DeFi users still lacked a fully decentralized way to onramp from fiat to crypto and offramp back to fiat.",
+  "source": "@site/docs/00-abstract.md",
+  "sourceDirName": ".",
+  "slug": "/abstract",
+  "permalink": "/whitepaper/abstract",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "00-abstract",
+    "sidebar_position": 0,
+    "title": "Abstract",
+    "slug": "abstract"
+  },
+  "sidebar": "whitepaperSidebar",
+  "next": {
+    "title": "1. The Vision",
+    "permalink": "/whitepaper/the-vision"
+  }
+}

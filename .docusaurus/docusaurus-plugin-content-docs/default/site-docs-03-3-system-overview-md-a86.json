@@ -1,0 +1,29 @@
+{
+  "id": "03-3-system-overview",
+  "title": "3. System Overview",
+  "description": "3.1 Actors",
+  "source": "@site/docs/03-3-system-overview.md",
+  "sourceDirName": ".",
+  "slug": "/system-overview",
+  "permalink": "/whitepaper/system-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "03-3-system-overview",
+    "sidebar_position": 3,
+    "title": "3. System Overview",
+    "slug": "system-overview"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "2. Design Goals and Non-Goals",
+    "permalink": "/whitepaper/design-goals-and-non-goals"
+  },
+  "next": {
+    "title": "4. Cryptographic Primitives & Proof Integration",
+    "permalink": "/whitepaper/cryptographic-primitives-proof-integration"
+  }
+}

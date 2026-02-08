@@ -1,0 +1,29 @@
+{
+  "id": "06-6-proof-of-credibility-reputation-matching",
+  "title": "6. Proof-of-Credibility (Reputation & Matching)",
+  "description": "P2P Protocol works using a unique on-chain reputation system which not only builds up user trust and privileges but actively helps prevent fraudulent activity within the P2P landscape.",
+  "source": "@site/docs/06-6-proof-of-credibility-reputation-matching.md",
+  "sourceDirName": ".",
+  "slug": "/proof-of-credibility-reputation-matching",
+  "permalink": "/whitepaper/proof-of-credibility-reputation-matching",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "06-6-proof-of-credibility-reputation-matching",
+    "sidebar_position": 6,
+    "title": "6. Proof-of-Credibility (Reputation & Matching)",
+    "slug": "proof-of-credibility-reputation-matching"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "5. Trade Protocol (On- and Off-Ramp)",
+    "permalink": "/whitepaper/trade-protocol-on-and-off-ramp"
+  },
+  "next": {
+    "title": "7. Fraud Prevention",
+    "permalink": "/whitepaper/fraud-prevention"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: 02-2-design-goals-and-non-goals
-sidebar_position: 4
+sidebar_position: 2
 title: "2. Design Goals and Non-Goals"
 slug: design-goals-and-non-goals
 ---

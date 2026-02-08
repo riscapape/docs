@@ -1,0 +1,25 @@
+{
+  "id": "19-appendices",
+  "title": "Appendices",
+  "description": "(To be expanded later)",
+  "source": "@site/docs/19-appendices.md",
+  "sourceDirName": ".",
+  "slug": "/appendices",
+  "permalink": "/whitepaper/appendices",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 19,
+  "frontMatter": {
+    "id": "19-appendices",
+    "sidebar_position": 19,
+    "title": "Appendices",
+    "slug": "appendices"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "18. References",
+    "permalink": "/whitepaper/references"
+  }
+}

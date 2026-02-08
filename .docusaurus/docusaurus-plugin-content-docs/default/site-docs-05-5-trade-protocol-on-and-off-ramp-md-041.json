@@ -1,0 +1,29 @@
+{
+  "id": "05-5-trade-protocol-on-and-off-ramp",
+  "title": "5. Trade Protocol (On- and Off-Ramp)",
+  "description": "We formalize the order lifecycle as a state machine with timeouts:",
+  "source": "@site/docs/05-5-trade-protocol-on-and-off-ramp.md",
+  "sourceDirName": ".",
+  "slug": "/trade-protocol-on-and-off-ramp",
+  "permalink": "/whitepaper/trade-protocol-on-and-off-ramp",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "05-5-trade-protocol-on-and-off-ramp",
+    "sidebar_position": 5,
+    "title": "5. Trade Protocol (On- and Off-Ramp)",
+    "slug": "trade-protocol-on-and-off-ramp"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "4. Cryptographic Primitives & Proof Integration",
+    "permalink": "/whitepaper/cryptographic-primitives-proof-integration"
+  },
+  "next": {
+    "title": "6. Proof-of-Credibility (Reputation & Matching)",
+    "permalink": "/whitepaper/proof-of-credibility-reputation-matching"
+  }
+}

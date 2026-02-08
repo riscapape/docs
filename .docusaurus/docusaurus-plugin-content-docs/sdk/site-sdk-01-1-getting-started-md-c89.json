@@ -1,0 +1,25 @@
+{
+  "id": "01-1-getting-started",
+  "title": "1. Getting Started",
+  "description": "1.1 Installation",
+  "source": "@site/sdk/01-1-getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/sdk/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "01-1-getting-started",
+    "sidebar_position": 0,
+    "title": "1. Getting Started",
+    "slug": "getting-started"
+  },
+  "sidebar": "sdkSidebar",
+  "next": {
+    "title": "2. Authentication",
+    "permalink": "/sdk/authentication"
+  }
+}

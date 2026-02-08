@@ -1,0 +1,29 @@
+{
+  "id": "05-5-error-handling",
+  "title": "5. Error Handling",
+  "description": "5.1 Error Codes",
+  "source": "@site/sdk/05-5-error-handling.md",
+  "sourceDirName": ".",
+  "slug": "/error-handling",
+  "permalink": "/sdk/error-handling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "05-5-error-handling",
+    "sidebar_position": 4,
+    "title": "5. Error Handling",
+    "slug": "error-handling"
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "4. Webhooks",
+    "permalink": "/sdk/webhooks"
+  },
+  "next": {
+    "title": "6. Best Practices",
+    "permalink": "/sdk/best-practices"
+  }
+}

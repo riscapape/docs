@@ -1,14 +1,14 @@
 import { Request, Response } from "express";
+import { config } from "../config";
 import { KnowledgeQuerySchema } from "../schemas/knowledge";
 import { searchChunks } from "../retrieval/search";
 import { rankChunks } from "../retrieval/rank";
 import { ModelGateway } from "../models/gateway";
 import { OllamaProvider } from "../models/ollama";
 
-// Initialize Model Gateway
-const ollamaUrl = process.env.OLLAMA_HOST || "http://localhost:11434";
-const modelName = process.env.LLM_MODEL || "llama3.1";
-const gateway = new ModelGateway(new OllamaProvider(ollamaUrl, modelName));
+const gateway = new ModelGateway(
+  new OllamaProvider(config.ollamaHost, config.llmModel),
+);
 
 /**
  * Standard response when no matching documentation is found.
@@ -35,7 +35,7 @@ export const queryHandler = async (req: Request, res: Response) => {
       return res.json({
         answer: NOT_FOUND_ANSWER,
         references: [],
-        model: modelName,
+        model: config.llmModel,
         confidence: 0,
       });
     }
@@ -67,7 +67,7 @@ export const queryHandler = async (req: Request, res: Response) => {
     res.json({
       answer,
       references,
-      model: modelName,
+      model: config.llmModel,
       confidence: rankedChunks.length > 0 ? 0.9 : 0, // Placeholder
     });
   } catch (error: any) {

@@ -1,0 +1,29 @@
+{
+  "id": "07-7-fraud-prevention",
+  "title": "7. Fraud Prevention",
+  "description": "7.1 How Reputation Prevents Fraud",
+  "source": "@site/docs/07-7-fraud-prevention.md",
+  "sourceDirName": ".",
+  "slug": "/fraud-prevention",
+  "permalink": "/whitepaper/fraud-prevention",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "07-7-fraud-prevention",
+    "sidebar_position": 7,
+    "title": "7. Fraud Prevention",
+    "slug": "fraud-prevention"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "6. Proof-of-Credibility (Reputation & Matching)",
+    "permalink": "/whitepaper/proof-of-credibility-reputation-matching"
+  },
+  "next": {
+    "title": "8. Dispute Resolution",
+    "permalink": "/whitepaper/dispute-resolution"
+  }
+}

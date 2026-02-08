@@ -1,0 +1,29 @@
+{
+  "id": "11-11-security-model",
+  "title": "11. Security Model",
+  "description": "TECH TODO",
+  "source": "@site/docs/11-11-security-model.md",
+  "sourceDirName": ".",
+  "slug": "/security-model",
+  "permalink": "/whitepaper/security-model",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "id": "11-11-security-model",
+    "sidebar_position": 11,
+    "title": "11. Security Model",
+    "slug": "security-model"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "10. Liquidity & Market Design",
+    "permalink": "/whitepaper/liquidity-market-design"
+  },
+  "next": {
+    "title": "12. Privacy Model",
+    "permalink": "/whitepaper/privacy-model"
+  }
+}

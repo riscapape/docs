@@ -1,0 +1,29 @@
+{
+  "id": "16-16-token-economics",
+  "title": "16. Token Economics",
+  "description": "The protocol token serves two primary purposes: governance and economic utility.",
+  "source": "@site/docs/16-16-token-economics.md",
+  "sourceDirName": ".",
+  "slug": "/token-economics",
+  "permalink": "/whitepaper/token-economics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "id": "16-16-token-economics",
+    "sidebar_position": 16,
+    "title": "16. Token Economics",
+    "slug": "token-economics"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "15. Governance & Upgradability",
+    "permalink": "/whitepaper/governance-upgradability"
+  },
+  "next": {
+    "title": "17. Disclosures & Risks",
+    "permalink": "/whitepaper/disclosures-risks"
+  }
+}

@@ -43,9 +43,18 @@ ${input.query}
       });
 
       return response.data.response;
-    } catch (error) {
+    } catch (error: any) {
       console.error("Ollama generation failed:", error);
-      throw new Error("Failed to generate response from Ollama");
+      const status = error.response?.status;
+      const data = error.response?.data;
+      if (status === 404 && data?.error?.includes("not found")) {
+        throw new Error(
+          `Ollama model '${this.model}' is not installed. Run: ollama pull ${this.model} (or set LLM_MODEL to a model you have, e.g. llama3.2 or mistral)`,
+        );
+      }
+      throw new Error(
+        data?.error || error.message || "Failed to generate response from Ollama",
+      );
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 id: 14-14-accessing-p2p-protocol-clients-sdks
-sidebar_position: 16
+sidebar_position: 14
 title: "14. Accessing P2P Protocol: Clients & SDKs"
 slug: accessing-p2p-protocol-clients-sdks
 ---

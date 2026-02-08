@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import { config } from "../config";
 import type {
   KnowledgeChunk,
   KnowledgeDomain,
@@ -20,7 +21,7 @@ let cachedDB: KnowledgeDB | null = null;
  * Returns the chunks array, or [] if the DB doesn't exist yet.
  */
 function loadChunks(): KnowledgeChunk[] {
-  const dbPath = path.join(__dirname, "../../knowledge-db.json");
+  const dbPath = config.knowledgeDbPath;
 
   if (!fs.existsSync(dbPath)) {
     console.warn(

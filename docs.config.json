@@ -18,20 +18,6 @@
         "P2P Protocol Whitepaper Update",
         "P2P Protocol Whitepaper"
       ]
-    },
-    {
-      "id": "sdk",
-      "source": "sources/sdk.md",
-      "outputDir": "sdk",
-      "routeBasePath": "sdk",
-      "navbarLabel": "SDK",
-      "navbarPosition": "left",
-      "sidebarId": "sdkSidebar",
-      "extractImages": true,
-      "splitByHeading": 1,
-      "numberSections": true,
-      "generateTocLinks": true,
-      "skipSections": ["P2P SDK Documentation"]
     }
   ],
   "navbar": {

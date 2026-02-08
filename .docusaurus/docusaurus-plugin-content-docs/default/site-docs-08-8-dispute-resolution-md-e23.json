@@ -1,0 +1,29 @@
+{
+  "id": "08-8-dispute-resolution",
+  "title": "8. Dispute Resolution",
+  "description": "Every instance of data sharing within the Protocol takes place via ZK principled evidence. If a user files a dispute within the DApp over the Protocol, the other party can issue and share a proof of their transaction without submitting additional personal data. A smart contract settles the dispute automatically when verifiers attest that the required statement has been proven; otherwise bonds and fees route per policy.",
+  "source": "@site/docs/08-8-dispute-resolution.md",
+  "sourceDirName": ".",
+  "slug": "/dispute-resolution",
+  "permalink": "/whitepaper/dispute-resolution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "08-8-dispute-resolution",
+    "sidebar_position": 8,
+    "title": "8. Dispute Resolution",
+    "slug": "dispute-resolution"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "7. Fraud Prevention",
+    "permalink": "/whitepaper/fraud-prevention"
+  },
+  "next": {
+    "title": "9. Pricing & Oracle Mechanics",
+    "permalink": "/whitepaper/pricing-oracle-mechanics"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "14-14-accessing-p2p-protocol-clients-sdks",
+  "title": "14. Accessing P2P Protocol: Clients & SDKs",
+  "description": "14.1 Clients and Ease of Use",
+  "source": "@site/docs/14-14-accessing-p2p-protocol-clients-sdks.md",
+  "sourceDirName": ".",
+  "slug": "/accessing-p2p-protocol-clients-sdks",
+  "permalink": "/whitepaper/accessing-p2p-protocol-clients-sdks",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "id": "14-14-accessing-p2p-protocol-clients-sdks",
+    "sidebar_position": 14,
+    "title": "14. Accessing P2P Protocol: Clients & SDKs",
+    "slug": "accessing-p2p-protocol-clients-sdks"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "13. Compliance & Policy Positioning",
+    "permalink": "/whitepaper/compliance-policy-positioning"
+  },
+  "next": {
+    "title": "15. Governance & Upgradability",
+    "permalink": "/whitepaper/governance-upgradability"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/ai-chat-c2c": {
+    "__comp": "__comp---site-src-pages-ai-chat-tsx-211-cb9",
+    "__context": {
+      "plugin": "plugin---ai-chata-74-c8c"
+    },
+    "config": "config---ai-chat-5-e-9-ccd"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---ai-chata-74-c8c"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/search-822": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---search-138-688"
+    }
+  },
+  "/whitepaper-4cc": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---whitepaperaba-d78"
+    }
+  },
+  "/whitepaper-2a3": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---whitepaper-51-e-773"
+  },
+  "/whitepaper-b4a": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/whitepaper/abstract-6cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-abstract-225-870"
+  },
+  "/whitepaper/accessing-p2p-protocol-clients-sdks-af2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-accessing-p-2-p-protocol-clients-sdksca-7-b29"
+  },
+  "/whitepaper/appendices-518": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-appendices-64-d-c74"
+  },
+  "/whitepaper/compliance-policy-positioning-6a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-compliance-policy-positioning-623-b82"
+  },
+  "/whitepaper/cryptographic-primitives-proof-integration-26b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-cryptographic-primitives-proof-integration-799-33a"
+  },
+  "/whitepaper/design-goals-and-non-goals-2af": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-design-goals-and-non-goalsfb-1-9a6"
+  },
+  "/whitepaper/disclosures-risks-987": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-disclosures-risks-62-e-e7f"
+  },
+  "/whitepaper/dispute-resolution-eed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-dispute-resolutione-23-b16"
+  },
+  "/whitepaper/fraud-prevention-9a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-fraud-preventionb-5-c-e53"
+  },
+  "/whitepaper/governance-upgradability-5e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-governance-upgradability-668-2f2"
+  },
+  "/whitepaper/how-the-protocol-works-today-high-level-not-vendor-locked-30d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-how-the-protocol-works-today-high-level-not-vendor-lockedbad-74b"
+  },
+  "/whitepaper/liquidity-market-design-d7b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-liquidity-market-designe-4-e-203"
+  },
+  "/whitepaper/pricing-oracle-mechanics-185": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-pricing-oracle-mechanics-4-a-9-228"
+  },
+  "/whitepaper/privacy-model-f0c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-privacy-model-127-c6b"
+  },
+  "/whitepaper/proof-of-credibility-reputation-matching-cf5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-proof-of-credibility-reputation-matching-989-e1e"
+  },
+  "/whitepaper/references-d84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-references-012-154"
+  },
+  "/whitepaper/security-model-243": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-security-modele-19-aeb"
+  },
+  "/whitepaper/system-overview-26a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-system-overviewa-86-7e5"
+  },
+  "/whitepaper/the-vision-38b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-the-vision-32-a-97c"
+  },
+  "/whitepaper/token-economics-a1b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-token-economicse-80-699"
+  },
+  "/whitepaper/trade-protocol-on-and-off-ramp-e52": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-trade-protocol-on-and-off-ramp-041-ac2"
+  },
+  "/whitepaper/why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer-657": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---whitepaper-why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer-4-ef-96d"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---ai-chata-74-c8c"
+    },
+    "config": "config---ai-chat-5-e-9-ccd"
+  }
+}

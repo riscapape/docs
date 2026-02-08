@@ -1,6 +1,7 @@
 import * as path from "path";
 import * as fs from "fs";
-import { ingestCanonicalDocs } from "./markdown";
+import { config } from "../config";
+import { ingestCanonicalDocs, getDocsDir } from "./markdown";
 import type { KnowledgeDB } from "../contracts";
 
 /**
@@ -10,12 +11,13 @@ import type { KnowledgeDB } from "../contracts";
 const KNOWLEDGE_VERSION = "whitepaper-v1";
 
 async function main() {
-  // Resolve to the repository root (apps/knowledge-api/src/ingest -> root)
-  const repoRoot = path.resolve(__dirname, "../../../../");
-  const docsDir = path.join(repoRoot, "website", "docs");
+  const repoRoot = config.repoRoot
+    ? path.resolve(config.repoRoot)
+    : path.resolve(__dirname, "../../../../");
+  const docsDirResolved = getDocsDir(repoRoot);
 
   console.log(`[Ingest] Repository root:  ${repoRoot}`);
-  console.log(`[Ingest] Ingestion source: ${docsDir}`);
+  console.log(`[Ingest] Ingestion source: ${docsDirResolved}`);
   console.log(`[Ingest] Version:          ${KNOWLEDGE_VERSION}`);
   console.log();
 
@@ -45,7 +47,7 @@ async function main() {
     // fs.renameSync is atomic on the same filesystem, so readers
     // of knowledge-db.json never see a partially-written file.
     // This ensures re-ingest replaces the previous version cleanly.
-    const dbPath = path.join(__dirname, "../../knowledge-db.json");
+    const dbPath = config.knowledgeDbPath;
     const tmpPath = dbPath + ".tmp";
 
     fs.writeFileSync(tmpPath, JSON.stringify(db, null, 2));

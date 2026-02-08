@@ -1,6 +1,6 @@
 ---
 id: 03-3-system-overview
-sidebar_position: 5
+sidebar_position: 3
 title: "3. System Overview"
 slug: system-overview
 ---

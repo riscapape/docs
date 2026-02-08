@@ -1,0 +1,29 @@
+{
+  "id": "04-4-cryptographic-primitives-proof-integration",
+  "title": "4. Cryptographic Primitives & Proof Integration",
+  "description": "4.1 Proofs for Identity and Payments",
+  "source": "@site/docs/04-4-cryptographic-primitives-proof-integration.md",
+  "sourceDirName": ".",
+  "slug": "/cryptographic-primitives-proof-integration",
+  "permalink": "/whitepaper/cryptographic-primitives-proof-integration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "04-4-cryptographic-primitives-proof-integration",
+    "sidebar_position": 4,
+    "title": "4. Cryptographic Primitives & Proof Integration",
+    "slug": "cryptographic-primitives-proof-integration"
+  },
+  "sidebar": "whitepaperSidebar",
+  "previous": {
+    "title": "3. System Overview",
+    "permalink": "/whitepaper/system-overview"
+  },
+  "next": {
+    "title": "5. Trade Protocol (On- and Off-Ramp)",
+    "permalink": "/whitepaper/trade-protocol-on-and-off-ramp"
+  }
+}

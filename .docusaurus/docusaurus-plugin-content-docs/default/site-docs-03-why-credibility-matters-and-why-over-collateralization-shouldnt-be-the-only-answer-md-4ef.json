@@ -1,0 +1,20 @@
+{
+  "id": "03-why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer",
+  "title": "Why credibility matters (and why over-collateralization shouldn't be the only answer)",
+  "description": "Traditional DeFi often reaches for heavy collateral to feel safe. That works for some instruments, but it makes everyday finance clunky and exclusionary. Credibility-based DeFi says: let peers earn limits, speed, and price by behaving well over time, and let ZK proofs protect privacy while doing so.",
+  "source": "@site/docs/03-why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer.md",
+  "sourceDirName": ".",
+  "slug": "/why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer",
+  "permalink": "/whitepaper/why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "03-why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer",
+    "sidebar_position": 3,
+    "title": "Why credibility matters (and why over-collateralization shouldn't be the only answer)",
+    "slug": "why-credibility-matters-and-why-over-collateralization-shouldnt-be-the-only-answer"
+  }
+}
