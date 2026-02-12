@@ -44,8 +44,8 @@ export const config = {
   /** Ollama API base URL (e.g. http://localhost:11434 or http://ollama:11434 in Docker) */
   ollamaHost: env("OLLAMA_HOST", "http://localhost:11434"),
 
-  /** LLM model name (e.g. llama3.1, llama3.2, mistral) */
-  llmModel: env("LLM_MODEL", "llama3.1"),
+  /** LLM model name (e.g. phi3:mini, qwen2.5:1.5b, llama3.2, mistral) */
+  llmModel: env("LLM_MODEL", "phi3:mini"),
 
   /**
    * Absolute path to the knowledge DB JSON file.

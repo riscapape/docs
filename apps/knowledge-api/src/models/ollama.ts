@@ -7,7 +7,7 @@ export class OllamaProvider implements LLMProvider {
 
   constructor(
     baseUrl: string = "http://localhost:11434",
-    model: string = "llama3.1",
+    model: string = "phi3:mini",
   ) {
     this.baseUrl = baseUrl;
     this.model = model;
@@ -49,7 +49,7 @@ ${input.query}
       const data = error.response?.data;
       if (status === 404 && data?.error?.includes("not found")) {
         throw new Error(
-          `Ollama model '${this.model}' is not installed. Run: ollama pull ${this.model} (or set LLM_MODEL to a model you have, e.g. llama3.2 or mistral)`,
+          `Ollama model '${this.model}' is not installed. Run: ollama pull ${this.model} (or set LLM_MODEL to a lighter model you have, e.g. phi3:mini or qwen2.5:1.5b)`,
         );
       }
       throw new Error(
