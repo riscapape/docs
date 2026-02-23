@@ -32,8 +32,8 @@ const ownCategory = {
     "16-16-token-economics",
     "17-17-disclosures-risks",
     "18-18-references",
-    "21-appendices",
-  ],
+    "21-appendices"
+],
 };
 
 const sidebars: SidebarsConfig = {

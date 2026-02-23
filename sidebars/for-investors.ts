@@ -25,8 +25,8 @@ const ownCategory = {
     "progressive-decentralization",
     "insurance",
     "faq",
-    "disclosures",
-  ],
+    "disclosures"
+],
 };
 
 const sidebars: SidebarsConfig = {

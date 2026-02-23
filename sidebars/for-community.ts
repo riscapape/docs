@@ -20,8 +20,8 @@ const ownCategory = {
     "remuneration",
     "discord-structure",
     "principles",
-    "faq",
-  ],
+    "faq"
+],
 };
 
 const sidebars: SidebarsConfig = {

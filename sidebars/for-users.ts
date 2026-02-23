@@ -19,8 +19,8 @@ const ownCategory = {
     "understanding-order-states",
     "disputes-and-evidence",
     "troubleshooting",
-    "faq",
-  ],
+    "faq"
+],
 };
 
 const sidebars: SidebarsConfig = {

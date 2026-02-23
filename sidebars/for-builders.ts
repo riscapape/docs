@@ -20,8 +20,8 @@ const ownCategory = {
     "fiat-to-fiat-remittance",
     "global-currency-expansion",
     "rollout-sequence",
-    "faq",
-  ],
+    "faq"
+],
 };
 
 const sidebars: SidebarsConfig = {

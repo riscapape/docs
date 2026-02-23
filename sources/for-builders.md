@@ -165,7 +165,7 @@ The bottleneck for geographic expansion is local knowledge. Open-source configs 
 
 ### Where are the contract ABIs?
 
-Contract references are listed in the [Contract References](#contract-references) section. Source code is available under the terms described in the protocol's licensing documentation.
+Contract references are listed in the [Contract References](/for-builders/contract-references) section. Source code is available under the terms described in the protocol's licensing documentation.
 
 ### Can I add a new country or currency?
 
@@ -173,7 +173,7 @@ The currency expansion framework uses open-source YAML configs. Anyone with loca
 
 ### How do disputes work at the contract level?
 
-Users call `raiseDispute` on `OrderProcessorFacet`. Admins settle via `adminSettleDispute` with a fault type. Settlement triggers accounting and RP hooks. See [Disputes](#disputes) for the full flow.
+Users call `raiseDispute` on `OrderProcessorFacet`. Admins settle via `adminSettleDispute` with a fault type. Settlement triggers accounting and RP hooks. See [Disputes](/for-builders/disputes) for the full flow.
 
 ### What is the Diamond architecture?
 
@@ -181,7 +181,7 @@ The protocol uses EIP-2535 Diamond Standard. Functionality is split across facet
 
 ### How does RP integrate with order flow?
 
-RP hooks are whitelisted in the `ReputationManager`. Order volume updates, dispute penalties, and verification-gated rewards all flow through these hooks. See [Reputation](#reputation).
+RP hooks are whitelisted in the `ReputationManager`. Order volume updates, dispute penalties, and verification-gated rewards all flow through these hooks. See [Reputation](/for-builders/reputation).
 
 ### Where does governance detail live for token holders?
 

@@ -24,8 +24,8 @@ const ownCategory = {
     "insurance",
     "risk-and-reliability-practices",
     "troubleshooting",
-    "faq",
-  ],
+    "faq"
+],
 };
 
 const sidebars: SidebarsConfig = {
