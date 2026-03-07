@@ -114,6 +114,7 @@ const config: Config = {
 
   clientModules: [
     './src/clientModules/tocAutoScroll.js',
+    './src/clientModules/bielTranslations.js',
   ],
 
   presets: [
@@ -177,6 +178,14 @@ const config: Config = {
         path: 'for-community',
         routeBasePath: 'for-community',
         sidebarPath: './sidebars/for-community.ts',
+      },
+    ],[
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'whitepaper-pt',
+        path: 'whitepaper-pt',
+        routeBasePath: 'pt/whitepaper',
+        sidebarPath: './sidebars/whitepaper-pt.ts',
       },
     ]
   ],
