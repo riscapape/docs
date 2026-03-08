@@ -6,28 +6,39 @@ if (ExecutionEnvironment.canUseDOM) {
     pt: { searchPlaceholder: 'Pesquisar' },
   };
 
-  let bielStyleInjected = false;
-
   function getCurrentLanguage() {
     const firstSegment = window.location.pathname.split('/').filter(Boolean)[0];
     return firstSegment === 'pt' ? 'pt' : 'en';
   }
 
   function hideBielInPortuguese() {
-    if (bielStyleInjected) return;
     const lang = getCurrentLanguage();
+    const styleId = 'biel-hide-pt';
+    const existingStyle = document.getElementById(styleId);
+
     if (lang === 'pt') {
-      const style = document.createElement('style');
-      style.textContent = `
-        biel-button,
-        [data-biel],
-        .biel-widget,
-        .biel-button {
-          display: none !important;
-        }
-      `;
-      document.head.appendChild(style);
-      bielStyleInjected = true;
+      // Hide Biel for PT
+      if (!existingStyle) {
+        const style = document.createElement('style');
+        style.id = styleId;
+        style.textContent = `
+          biel-button,
+          [data-biel],
+          .biel-widget,
+          .biel-button,
+          iframe[src*="biel"],
+          [class*="biel"] {
+            display: none !important;
+            visibility: hidden !important;
+          }
+        `;
+        document.head.appendChild(style);
+      }
+    } else {
+      // Show Biel for EN - remove the hide style
+      if (existingStyle) {
+        existingStyle.remove();
+      }
     }
   }
 
@@ -64,6 +75,11 @@ if (ExecutionEnvironment.canUseDOM) {
   observer.observe(document.body, {
     childList: true,
     subtree: true,
+  });
+
+  // Ensure Biel is hidden on page load for PT
+  window.addEventListener('load', () => {
+    updateTranslations();
   });
 }
 
