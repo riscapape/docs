@@ -26,7 +26,7 @@ const sidebars: SidebarsConfig = {
             "insurance",
             "financials-and-estimates",
             "faq",
-            "why-base-chain-when-will-you-launch-on-solana",
+            "multichain-strategy",
             "disclosures"
         ]
     }

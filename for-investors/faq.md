@@ -5,6 +5,10 @@ title: "FAQ"
 slug: faq
 ---
 
+## Why is the token launching on Solana if the protocol is on Base?
+
+The protocol is live on Base today. The token launches on Solana to build network effects ahead of deploying the protocol there. Solana is the planned hub of a multichain architecture. See [Multichain Strategy](/for-investors/multichain-strategy) for the full roadmap.
+
 ## Why does P2P need a token?
 
 P2P on/off ramping is essential financial infrastructure in emerging markets. Without a token, control over this infrastructure stays with a single operator who can change fees, censor users, or shut it down. The token transfers that control to the community.

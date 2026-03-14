@@ -423,8 +423,8 @@ const config: Config = {
                         },
                         {
                                 "type": "doc",
-                                "docId": "why-base-chain-when-will-you-launch-on-solana",
-                                "label": "Why Base chain? When will you launch on solana?",
+                                "docId": "multichain-strategy",
+                                "label": "Multichain Strategy",
                                 "docsPluginId": "for-investors"
                         },
                         {
