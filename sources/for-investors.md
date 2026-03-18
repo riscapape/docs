@@ -257,6 +257,32 @@ The protocol is forecast to reach operating profitability by mid-2027 as volume 
 
 ---
 
+## Multichain Strategy
+
+P2P Protocol envisions a multichain future with Solana as its hub chain.
+
+The protocol's smart contracts are live on Base today—chosen during the bootstrapping phase for low fees and fast finality. The $P2P token launches on Solana deliberately: building network effects and community in the Solana ecosystem is the precursor to deploying the protocol there. Once the protocol is live on Solana, it becomes the hub of a multichain architecture, with Base and future chains as supported spokes.
+
+### Why is the token launching on Solana if the protocol is on Base?
+
+The protocol is live on Base today. The token launches on Solana to build network effects ahead of deploying the protocol there. Solana is the planned hub of a multichain architecture.
+
+### Does chain choice lock the protocol?
+
+No. The protocol is chain-agnostic by architecture. Verifier registries, oracle adapters, and rail registries are designed as swappable interfaces. Deploying on a new chain requires re-deployment, not a rewrite.
+
+### How do I separate what's live from what's planned?
+
+Inline notes throughout the docs mark features planned for future releases. For contract-level detail on what is deployed, see [`/for-builders`](/for-builders/start-here).
+
+---
+
+## Disclosures
+
+The $P2P token provides governance rights and economic utility within the protocol, independently of any corporate entity. It carries no claim on foundation assets and no debt obligation. Value derives from protocol usage and network effects rather than any promise of returns.
+
+---
+
 ## FAQ
 
 ### Why is the token launching on Solana if the protocol is on Base?
@@ -286,27 +312,3 @@ Users commit USDC during a 4-day window. If oversubscribed, allocations are pro-
 ### Is supply fixed?
 
 Yes, fixed at launch (25.8M). Future issuance requires governance approval via futarchy. The protocol runs on transaction revenue, not token emissions.
-
-## Multichain Strategy
-
-P2P Protocol envisions a multichain future with Solana as its hub chain.
-
-The protocol's smart contracts are live on Base today—chosen during the bootstrapping phase for low fees and fast finality. The $P2P token launches on Solana deliberately: building network effects and community in the Solana ecosystem is the precursor to deploying the protocol there. Once the protocol is live on Solana, it becomes the hub of a multichain architecture, with Base and future chains as supported spokes.
-
-### Why is the token launching on Solana if the protocol is on Base?
-
-The protocol is live on Base today. The token launches on Solana to build network effects ahead of deploying the protocol there. Solana is the planned hub of a multichain architecture.
-
-### Does chain choice lock the protocol?
-
-No. The protocol is chain-agnostic by architecture. Verifier registries, oracle adapters, and rail registries are designed as swappable interfaces. Deploying on a new chain requires re-deployment, not a rewrite.
-
-### How do I separate what's live from what's planned?
-
-Inline notes throughout the docs mark features planned for future releases. For contract-level detail on what is deployed, see [`/for-builders`](/for-builders/start-here).
-
----
-
-## Disclosures
-
-The $P2P token provides governance rights and economic utility within the protocol, independently of any corporate entity. It carries no claim on foundation assets and no debt obligation. Value derives from protocol usage and network effects rather than any promise of returns.
