@@ -15,8 +15,6 @@
   --ifm-color-primary-light: var(--p2p-blue-light);
   --ifm-navbar-height: 3.5rem;
 
-  /* Common */
-  --glass-backdrop: blur(12px);
 }
 
 /* Light Mode */
