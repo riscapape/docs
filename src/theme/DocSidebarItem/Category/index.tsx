@@ -246,7 +246,7 @@ function DocSidebarItemCategoryCollapsible({
         )}
       </div>
 
-      <Collapsible lazy={false} as="ul" className="menu__list" collapsed={collapsed} animation={{duration: 200}}>
+      <Collapsible lazy as="ul" className="menu__list" collapsed={collapsed} animation={{duration: 200}}>
         <DocSidebarItems
           items={items}
           tabIndex={collapsed ? -1 : 0}

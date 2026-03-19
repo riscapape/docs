@@ -23,7 +23,7 @@
 [data-theme="light"] {
   --ifm-background-color: #ffffff;
   --ifm-background-surface-color: #ffffff;
-  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.97);
 
   --p2p-text-primary: #1a1a1a;
   --p2p-text-secondary: #555555;
@@ -50,7 +50,7 @@
 [data-theme="dark"] {
   --ifm-background-color: #131313;
   --ifm-background-surface-color: #1e1e1e;
-  --ifm-navbar-background-color: rgba(19, 19, 19, 0.8);
+  --ifm-navbar-background-color: rgba(19, 19, 19, 0.97);
 
   --p2p-text-primary: #ffffff;
   --p2p-text-secondary: #a1a1a1;
@@ -99,7 +99,6 @@ body::before {
       transparent 25%
     );
   pointer-events: none;
-  will-change: transform;
 }
 
 #__docusaurus {
@@ -182,8 +181,6 @@ h6 {
   content: "";
   position: absolute;
   inset: 0;
-  backdrop-filter: var(--glass-backdrop);
-  -webkit-backdrop-filter: var(--glass-backdrop);
   background: var(--ifm-navbar-background-color);
   z-index: -1;
   pointer-events: none;
@@ -354,50 +351,18 @@ h6 {
 }
 
 .theme-doc-sidebar-menu {
-  contain: content;
+  contain: layout style;
 }
 
-.menu__list-item--collapsed > .menu__list {
-  content-visibility: auto;
-  contain-intrinsic-size: 0 500px;
-}
-
-/* Staggered reveal when a sidebar category expands */
+/* Fade-in when a sidebar category expands */
 @keyframes sidebarItemReveal {
-  from {
-    opacity: 0;
-    transform: translateY(-4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item {
-  animation: sidebarItemReveal 0.15s ease-out both;
+  animation: sidebarItemReveal 0.12s ease-out both;
 }
-
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(1)  { animation-delay: 0s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(2)  { animation-delay: 0.02s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(3)  { animation-delay: 0.04s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(4)  { animation-delay: 0.06s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(5)  { animation-delay: 0.08s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(6)  { animation-delay: 0.10s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(7)  { animation-delay: 0.12s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(8)  { animation-delay: 0.14s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(9)  { animation-delay: 0.16s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(10) { animation-delay: 0.18s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(11) { animation-delay: 0.20s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(12) { animation-delay: 0.22s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(13) { animation-delay: 0.24s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(14) { animation-delay: 0.26s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(15) { animation-delay: 0.28s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(16) { animation-delay: 0.30s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(17) { animation-delay: 0.32s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(18) { animation-delay: 0.34s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(19) { animation-delay: 0.36s; }
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item:nth-child(n+20) { animation-delay: 0.38s; }
 
 @media (prefers-reduced-motion: reduce) {
   .menu__list-item:not(.menu__list-item--collapsed) > .menu__list > .menu__list-item {
@@ -543,8 +508,6 @@ h6 {
 /* Cards & Glass Containers */
 .glass-card {
   background: var(--glass-bg);
-  backdrop-filter: var(--glass-backdrop);
-  -webkit-backdrop-filter: var(--glass-backdrop);
   border: 1px solid var(--glass-border);
   border-radius: 4px;
   box-shadow: var(--glass-shadow);
