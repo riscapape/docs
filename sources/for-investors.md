@@ -127,7 +127,7 @@ How much can be accepted scales with **total commitments** (**C**):
 
 | If total commitments **C**… | USDC accepted | Implied FDV |
 |----------------------------|---------------|-------------|
-| **C** ≤ **$80M** | Up to **$6M** | — |
+| **C** ≤ **$80M** | Up to **$6M** | **$15M** |
 | **$80M** < **C** ≤ **$150M** | Up to **$8M** | **$20M** |
 | **C** > **$150M** | Up to **$10M** | **$25M** |
 
