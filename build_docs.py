@@ -350,18 +350,35 @@ export default sidebars;
         # Add plugins for pre-generated docs (e.g., translations)
         for doc_config in self.config['docs']:
             if doc_config.get('skipGeneration', False):
-                plugin_id = doc_config['id']
-                plugin_path = doc_config['outputDir']
-                sidebar_path = doc_config.get('sidebarPath', '')
-                plugins.append(f"""[
-      "@docusaurus/plugin-content-docs",
-      {{
-        id: "{plugin_id}",
-        path: "{plugin_path}",
-        routeBasePath: "{doc_config['routeBasePath']}",
-        sidebarPath: "{sidebar_path}",
-      }},
-    ]""")
+                # Check if this is a unified translation (contains multiple sections)
+                if doc_config.get('isTranslation', False):
+                    # For unified translations, create a single plugin that serves all sections
+                    plugin_id = doc_config['id']
+                    plugin_path = doc_config['outputDir']
+                    sidebar_path = doc_config.get('sidebarPath', '')
+                    plugins.append(f"""[
+                                    "@docusaurus/plugin-content-docs",
+                                    {{
+                                        id: "{plugin_id}",
+                                        path: "{plugin_path}",
+                                        routeBasePath: "{doc_config['routeBasePath']}",
+                                        sidebarPath: "{sidebar_path}",
+                                    }},
+                                    ]""")
+                else:
+                    # For individual pre-generated docs
+                    plugin_id = doc_config['id']
+                    plugin_path = doc_config['outputDir']
+                    sidebar_path = doc_config.get('sidebarPath', '')
+                    plugins.append(f"""[
+                                    "@docusaurus/plugin-content-docs",
+                                    {{
+                                        id: "{plugin_id}",
+                                        path: "{plugin_path}",
+                                        routeBasePath: "{doc_config['routeBasePath']}",
+                                        sidebarPath: "{sidebar_path}",
+                                    }},
+                                    ]""")
 
         # Add Biel.ai widget
         biel_config = self.config.get('biel', {})
