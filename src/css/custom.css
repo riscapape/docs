@@ -442,6 +442,13 @@ h6 {
   background: var(--glass-bg);
 }
 
+/* Make mobile sidebar panel scrollable so bottom-pinned items are reachable */
+@media (max-width: 996px) {
+  .navbar-sidebar__item.menu {
+    overflow-y: auto;
+  }
+}
+
 /* Active top-level or child item */
 .menu__link--active {
   color: var(--ifm-color-primary) !important;
