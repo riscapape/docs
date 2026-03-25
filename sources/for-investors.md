@@ -2,6 +2,8 @@
 
 ## Start Here
 
+> **Before proceeding, please read the [Disclosures](/for-investors/disclosures).** $P2P is not available to US persons. Nothing in this section constitutes an offer of securities or investment advice.
+
 This page covers the token thesis, economics, governance model, and investor FAQs in one place.
 
 **Quick links to key sections.**
@@ -11,7 +13,7 @@ This page covers the token thesis, economics, governance model, and investor FAQ
 - [Token details and allocation](/for-investors/token-details)
 - [MetaDAO sale](/for-investors/metadao-sale)
 - [Vesting schedules](/for-investors/vesting-schedules)
-- [Buy-and-burn](/for-investors/buy-and-burn)
+- [Treasury operations](/for-investors/treasury-operations)
 - [Staking mechanics](/for-investors/staking-mechanics)
 - [Token-holder governance](/for-investors/token-holder-governance)
 - [Progressive decentralization](/for-investors/progressive-decentralization)
@@ -29,8 +31,8 @@ Also see [`/whitepaper`](/whitepaper/abstract) for protocol context and [`/for-b
 - **Early-stage structure.** Compact launch supply with no insider tokens at TGE.
 - **Governance transition path.** Admin-operated today, with a documented multi-phase migration to token-governed control.
 - **Operational participation is explicit.** Staking, delegation, and treasury governance connect active participants to protocol operations.
-- **Sustainable growth is achieved.** Over the last 16 months an average month-on-month growth of 27% is recorded, with 2 years of live transaction volume and $4M monthly volume recorded in February 2026. We expect the protocol to continue with the same growth rate over the next 18 months to reach $500M in monthly volume. Protocol metrics can be tracked on-chain [here](https://dune.com/p2pme/latest).
-- **Revenue-generating today.** $578K in annual revenue run rate. Unit breakeven achieved, with up to 20% of revenue expected to flow as gross profit to the treasury from June 2026.
+- **Sustained historical growth.** Over the last 16 months an average month-on-month growth of 27% is recorded, with 2 years of live transaction volume and $4M monthly volume recorded in February 2026. Protocol metrics can be tracked on-chain [here](https://dune.com/p2pme/latest). Past growth is not indicative of future performance.
+- **Fee-generating today.** $578K in annual fee run rate. Unit breakeven achieved. 20% of protocol fees are directed to the on-chain treasury, governed by token holders.
 
 ---
 
@@ -133,7 +135,7 @@ How much can be accepted scales with **total commitments** (**C**):
 
 Only when **C** is **greater than $80M** does the sale accept up to **$8M** at **$20.64M** FDV. Only when **C** is **greater than $150M** does it accept up to **$10M** at **$25.8M** FDV. In all cases, unaccepted USDC is returned to participants.
 
-Existing protocol users receive a preferential allocation at the same valuation as all ICO investors, based on their XP on [p2p.foundation](https://p2p.foundation/).
+Existing protocol users receive a preferential allocation at the same valuation as all public sale participants, based on their XP on [p2p.foundation](https://p2p.foundation/).
 
 ### Preferential allocation formula
 
@@ -287,7 +289,7 @@ XP holders receive **$138.62** more in aggregate than they would without prefere
 Team tokens follow the MetaDAO performance package model. Rather than time-based vesting, tokens unlock based on protocol performance milestones.
 
 - 5 equal tranches of 1,548,000 tokens each
-- Tranches unlock at 2x, 4x, 8x, 16x, 32x ICO price
+- Tranches unlock at 2x, 4x, 8x, 16x, 32x sale price
 - Minimum unlock time: 12-month cliff, then 3-month TWAP measurement (15 months minimum)
 - Price measured via 3-month TWAP
 
@@ -304,7 +306,7 @@ Vesting is enforced via on-chain vesting contracts. Locked tokens cannot be stak
 
 ---
 
-## Treasury and Token Value
+## Treasury Operations
 
 20% of protocol fees are contributed to the treasury, planned to increase to 35% as the protocol matures—subject to MetaDAO futarchy governance.
 
@@ -401,6 +403,8 @@ The protocol design includes a three-tier insurance stack.
 
 ### P&L Forecast ($'000s)
 
+*The following projections are internal operational planning estimates based on stated assumptions. They are not investment return projections, profit guarantees, or representations of expected token performance. Actual results may differ materially. These figures describe protocol-level economics (fee collection, operating costs) and do not represent or imply financial returns to token holders. Token value is not mechanically linked to protocol profitability.*
+
 | | Apr 2026 | Jul 2026 | Oct 2026 | Jan 2027 | Apr 2027 | Jul 2027 |
 |---|---|---|---|---|---|---|
 | **Volume** | $6,500 | $14,281 | $31,374 | $68,929 | $151,438 | $332,708 |
@@ -412,7 +416,7 @@ The protocol design includes a three-tier insurance stack.
 | Operational expenses | $196 | $275 | $387 | $544 | $764 | $1,073 |
 | **Operating profit/(loss)** | **($168)** | **($213)** | **($250)** | **($242)** | **($101)** | **$383** |
 
-The protocol is forecast to reach operating profitability by mid-2027 as volume compounds at 30% monthly growth. Revenue is driven entirely by transaction fees on a working product, with no reliance on token emissions or inflationary incentives.
+The protocol's operational cost structure is designed to reach self-sustainability as volume scales. Fee collection is driven entirely by transaction volume on a working product, with no reliance on token emissions or inflationary incentives. These estimates are provided for operational transparency and should not be interpreted as investment return projections.
 
 ---
 
@@ -438,6 +442,8 @@ Inline notes throughout the docs mark features planned for future releases. For 
 
 ## Disclosures
 
+This section is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return.
+
 The $P2P token provides governance rights and operational participation utility within the protocol, independently of any corporate entity. It carries no claim on foundation assets, no debt obligation, and no contractual right to revenue distributions or financial returns. Any incentive allocations received through protocol participation are conditional on active operational involvement and are determined by governance, not guaranteed. The token does not constitute a security, investment product, or financial instrument in any jurisdiction. Prospective participants should seek independent legal and financial advice. Value, if any, derives from protocol usage and network effects rather than any promise of returns.
 
 ---
@@ -458,7 +464,7 @@ Yes. This is protocol ownership, distinct from equity in a traditional company. 
 
 ### How does the MetaDAO-style sale work?
 
-Users commit USDC during a 4-day window. **There is no bid wall**—clearing is pro-rata against the accepted cap, with refunds for any unallocated USDC. The ask is **$6M**; if commitments exceed that, excess is refunded. If total commitments are **above $80M** (and up to **$150M**), up to **$8M** is accepted at **$20.64M** FDV; if they are **above $150M**, up to **$10M** is accepted at **$25.8M** FDV. If oversubscribed at the active cap, allocations follow the pro-rata and XP-preference rules on the [MetaDAO sale](/for-investors/metadao-sale) page. Existing protocol users receive a preferential allocation at the same valuation as all ICO investors, based on their XP on [p2p.foundation](https://p2p.foundation/). No private rounds happen at TGE. The sale is the primary distribution event.
+Users commit USDC during a 4-day window. **There is no bid wall**—clearing is pro-rata against the accepted cap, with refunds for any unallocated USDC. The ask is **$6M**; if commitments exceed that, excess is refunded. If total commitments are **above $80M** (and up to **$150M**), up to **$8M** is accepted at **$20.64M** FDV; if they are **above $150M**, up to **$10M** is accepted at **$25.8M** FDV. If oversubscribed at the active cap, allocations follow the pro-rata and XP-preference rules on the [MetaDAO sale](/for-investors/metadao-sale) page. Existing protocol users receive a preferential allocation at the same valuation as all public sale participants, based on their XP on [p2p.foundation](https://p2p.foundation/). No private rounds happen at TGE. The sale is the primary distribution event.
 
 ### What unlocks at TGE?
 
