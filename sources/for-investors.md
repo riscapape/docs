@@ -18,6 +18,7 @@ This page covers the token mechanics, governance model, and FAQs in one place.
 - [Token-holder governance](/for-token-holders/token-holder-governance)
 - [Progressive decentralization](/for-token-holders/progressive-decentralization)
 - [Insurance](/for-token-holders/insurance)
+- [Legal documents](/for-token-holders/legal-documents)
 - [FAQ](/for-token-holders/faq)
 
 Also see [`/whitepaper`](/whitepaper/abstract) for protocol context and [`/for-builders`](/for-builders/start-here) for contract-level governance detail.
@@ -143,7 +144,7 @@ How much can be accepted scales with **total commitments** (**C**):
 
 Only when **C** is **greater than $80M** does the sale accept up to **$8M** at **$20.64M** FDV. Only when **C** is **greater than $150M** does it accept up to **$10M** at **$25.8M** FDV. In all cases, unaccepted USDC is returned to participants.
 
-Existing protocol users receive a preferential allocation at the same valuation as all public sale participants, based on their XP on [p2p.foundation](https://p2p.foundation/).
+Existing protocol users receive a preferential allocation at the same valuation as all public sale participants, based on their XP on [p2p.foundation](https://p2p.foundation/). Before participating, please review the [Disclosures](/for-token-holders/disclosures).
 
 ### Preferential allocation formula
 
@@ -461,6 +462,17 @@ Any rewards, incentives, or allocations that may arise within the protocol are s
 The protocol may describe mechanisms relating to fee flows or resource allocation; such descriptions are purely illustrative of system design and do not create enforceable rights, entitlements, or expectations for any participant.
 
 Participation in the protocol is experimental, involves risk, and may result in total loss of any value associated with participation. Prospective participants are encouraged to seek independent legal, financial, and tax advice prior to engaging with the protocol.
+
+
+---
+
+## Legal Documents
+
+The following documents contain the corporate formation and token warrant agreements underlying the $P2P token and protocol entity structure.
+
+- **[Company Formation and Token Warrant Documents](https://docsend.com/view/s/umhy65d8uus5whun)** — Corporate formation documents and token warrant agreements with existing backers.
+
+These documents should be read alongside the [Disclosures](/for-token-holders/disclosures) section of this documentation.
 
 ---
 
