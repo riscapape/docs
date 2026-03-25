@@ -2,7 +2,7 @@
 
 ## Start Here
 
-> **Before proceeding, please read the [Disclosures](/for-token-holders/disclosures).** $P2P is not available to US persons. Nothing in this section constitutes an offer of securities or investment advice.
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 This page covers the token mechanics, governance model, and FAQs in one place.
 
@@ -26,6 +26,8 @@ Also see [`/whitepaper`](/whitepaper/abstract) for protocol context and [`/for-b
 
 ## Protocol Overview
 
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
+
 - **Working core rails exist today.** Onramp/offramp, matching, disputes, and on-chain parameter controls are live and processing volume.
 - **Expansion path is clear.** Remittance and multi-currency tracks build on existing rails. They add corridors and users, not new trust assumptions. B2B SDK for third-party developers to integrate P2P Protocol rails is set to launch by June 2026.
 - **50% of supply circulates at launch.** No team or backer tokens unlock at TGE.
@@ -37,6 +39,8 @@ Also see [`/whitepaper`](/whitepaper/abstract) for protocol context and [`/for-b
 ---
 
 ## Why the Token Exists
+
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 P2P on/off ramping is critical infrastructure for emerging markets. Millions of people depend on it to move between fiat and stablecoins every day. Infrastructure this important cannot remain under the control of a single operator. The token exists to decentralize governance of this utility so that no single team, company, or jurisdiction can shut it down, censor it, or extract from it unfairly.
 
@@ -65,6 +69,8 @@ The token enables four things.
 ---
 
 ## Token Utility
+
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 **Governance.** $P2P is a governance token. Protocol parameters, treasury deployment, and the ability to mint new tokens are controlled by token holders through futarchy-based governance, not by any single team, foundation, or entity. Governance provides a mechanism to redirect protocol control if resources were ever mismanaged. Decisions that affect token supply (minting) must pass through a decision-market governance mechanism, where participants stake real capital on whether a proposal benefits the protocol. Proposals that the market predicts will harm the protocol are automatically rejected.
 
@@ -109,6 +115,8 @@ No backer or team tokens unlock at TGE. At launch, 12.9M tokens circulate (10M s
 ---
 
 ## MetaDAO Sale
+
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 The $P2P token launches on Solana through a MetaDAO-style sale mechanism designed for fair, community-first distribution.
 
@@ -306,6 +314,8 @@ Vesting is enforced via on-chain vesting contracts. Locked tokens cannot be stak
 
 ## Treasury Operations
 
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
+
 20% of protocol fees are contributed to the treasury, planned to increase to 35% as the protocol matures, subject to MetaDAO futarchy governance.
 
 - 20% of protocol fees flow to the on-chain treasury (planned increase to 35% via MetaDAO futarchy governance)
@@ -318,6 +328,8 @@ Token holders govern how treasury funds are deployed. All treasury actions requi
 ---
 
 ## Staking Mechanics
+
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 - **Circle Admins** stake $P2P to operate merchant networks. Their stake is slashable, and a portion of their allocations is locked as an insurance buffer.
 - **Merchants** stake USDC as working capital for order fulfillment. Their capacity is bounded by their stake.
@@ -373,6 +385,8 @@ The protocol design includes a three-tier insurance stack.
 ---
 
 ## Operational Cost Structure
+
+> *This page is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return. Please read the full [Disclosures](/for-token-holders/disclosures) before proceeding.*
 
 ### Monthly Operational Expenses
 
@@ -436,11 +450,17 @@ Inline notes throughout the docs mark features planned for future releases. For 
 
 ## Disclosures
 
-This section is provided for informational purposes to explain protocol mechanics. It does not constitute an offer of securities or investment advice. $P2P is not available to US persons. Nothing herein should be construed as a promise of financial return.
+This section is provided solely to describe the operational mechanics of the protocol. It does not constitute an offer, solicitation, or recommendation to purchase or acquire any asset, nor does it constitute investment, financial, or legal advice. The protocol and associated participation mechanisms are not directed at, nor available to, persons located in the United States or any other restricted jurisdiction.
 
-The $P2P token provides governance rights and operational participation utility within the protocol, independently of any corporate entity. It carries no claim on foundation assets, no debt obligation, and no contractual right to fee distributions, revenue distributions, or financial returns of any kind. Any incentive allocations received through protocol participation are conditional on active operational involvement, are determined by governance, and are not guaranteed. Fee routing within the protocol describes the operational mechanics of how the protocol distributes fees among active participants; it does not create an entitlement for token holders.
+The $P2P token is a coordination and governance mechanism used within the protocol to facilitate participation in decision-making processes and operational activities. It is not intended to function as, or be understood as, a financial instrument, investment contract, or security of any kind.
 
-The token does not constitute a security, investment product, or financial instrument in any jurisdiction. Prospective participants should seek independent legal and financial advice. Value, if any, derives from protocol usage and network effects rather than any promise of returns. Past protocol performance is not indicative of future results.
+Holding or using $P2P does not guarantee any value, utility, or continued participation rights. Any roles, permissions, or influence within the protocol are entirely contingent on governance processes and may be modified, limited, or revoked at any time according to the governance processes.
+
+Any rewards, incentives, or allocations that may arise within the protocol are strictly a function of active participation and ongoing contribution, as determined by decentralized governance processes. Such outcomes are variable, discretionary, and not guaranteed, and should not be interpreted as a return on investment or expectation of profit.
+
+The protocol may describe mechanisms relating to fee flows or resource allocation; such descriptions are purely illustrative of system design and do not create enforceable rights, entitlements, or expectations for any participant.
+
+Participation in the protocol is experimental, involves risk, and may result in total loss of any value associated with participation. Prospective participants are encouraged to seek independent legal, financial, and tax advice prior to engaging with the protocol.
 
 ---
 
