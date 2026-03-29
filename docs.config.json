@@ -18,19 +18,19 @@
       "skipSections": ["P2P Protocol Whitepaper Update", "P2P Protocol Whitepaper"]
     },
     {
-      "id": "for-investors",
+      "id": "for-token-holders",
       "source": "sources/for-investors.md",
-      "outputDir": "for-investors",
-      "routeBasePath": "for-investors",
-      "navbarLabel": "For Investors",
+      "outputDir": "for-token-holders",
+      "routeBasePath": "for-token-holders",
+      "navbarLabel": "For Token Holders",
       "navbarPosition": "left",
-      "sidebarId": "forInvestorsSidebar",
+      "sidebarId": "forTokenHoldersSidebar",
       "extractImages": false,
       "splitByHeading": 2,
       "numberSections": false,
       "generateTocLinks": false,
       "sidebarStyle": "flat",
-      "skipSections": ["For Investors"]
+      "skipSections": ["For Token Holders"]
     },
     {
       "id": "for-builders",

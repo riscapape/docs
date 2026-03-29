@@ -247,7 +247,7 @@ A Circle is a community-backed group of merchants. Circle Admins oversee operati
 
 ### How do I earn revenue?
 
-Merchants earn a share of transaction volume through the protocol's fee distribution model. You can withdraw accrued fees through the supported merchant operations flow. See [`/for-investors`](/for-investors/start-here) for the full fee distribution breakdown.
+Merchants earn a share of transaction volume through the protocol's fee distribution model. You can withdraw accrued fees through the supported merchant operations flow. See [`/for-token-holders`](/for-token-holders/start-here) for the full fee distribution breakdown.
 
 ### Where are the exact numeric thresholds?
 

@@ -15,7 +15,7 @@ This page covers what builders need to integrate with, extend, or contribute to 
 - [Currency expansion](/for-builders/global-currency-expansion)
 - [FAQ](/for-builders/faq)
 
-Also see [`/whitepaper`](/whitepaper/abstract) for protocol design and [`/for-investors`](/for-investors/start-here) for token governance and economics.
+Also see [`/whitepaper`](/whitepaper/abstract) for protocol design and [`/for-token-holders`](/for-token-holders/start-here) for token governance and economics.
 
 ---
 
@@ -165,7 +165,7 @@ The bottleneck for geographic expansion is local knowledge. Open-source configs 
 
 ### What chain are the contracts deployed on?
 
-The protocol's smart contracts are live on Base (EVM). Solana deployment is planned as part of the multichain expansion. The $P2P token is an SPL token on Solana. See [Multichain Strategy](/for-investors/multichain-strategy) for details.
+The protocol's smart contracts are live on Base (EVM). Solana deployment is planned as part of the multichain expansion. The $P2P token is an SPL token on Solana. See [Multichain Strategy](/for-token-holders/multichain-strategy) for details.
 
 ### Where are the contract ABIs?
 
@@ -189,4 +189,4 @@ RP hooks are whitelisted in the `ReputationManager`. Order volume updates, dispu
 
 ### Where does governance detail live for token holders?
 
-Token-holder governance (voting model, quorum, progressive decentralization) is documented in [`/for-investors`](/for-investors/start-here).
+Token-holder governance (voting model, quorum, progressive decentralization) is documented in [`/for-token-holders`](/for-token-holders/start-here).

@@ -1,0 +1,44 @@
+.legalLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+  margin: 0 8px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--p2p-text-secondary, var(--ifm-font-color-secondary));
+  text-decoration: none;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  transition: all 0.2s ease;
+  position: sticky;
+  bottom: 8px;
+}
+
+.legalLink:hover {
+  color: var(--ifm-color-primary);
+  background: var(--glass-bg);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.legalLink:hover .legalLinkIcon {
+  transform: translate(1px, -1px);
+  opacity: 1;
+}
+
+.legalLinkIcon {
+  flex-shrink: 0;
+  margin-left: auto;
+  opacity: 0.5;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+@media (max-width: 996px) {
+  .legalLink {
+    position: static;
+    margin: 8px;
+  }
+}
